@@ -8,9 +8,7 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-    </androidx.recyclerview.widget.RecyclerView>
+        android:layout_height="match_parent"/>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/floatingActionButton"
@@ -18,12 +16,15 @@
         android:layout_height="wrap_content"
         android:clickable="true"
         app:layout_anchor="@id/bar"
-        app:srcCompat="@android:drawable/arrow_down_float"
-        android:focusable="true" />
+        app:srcCompat="@drawable/ic_add"
+        android:focusable="true"
+        app:backgroundTint="@color/colorAccent"/>
 
     <com.google.android.material.bottomappbar.BottomAppBar
         android:id="@+id/bar"
+        app:backgroundTint="@color/colorPrimary"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"/>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
