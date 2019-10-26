@@ -3,8 +3,14 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:title="Item"
+        android:id="@+id/barSearch"
+        android:icon="@drawable/ic_search"
+        android:title="Search"
         app:showAsAction="always" />
-    <item android:title="Item" />
+    <item
+        android:id="@+id/barSettings"
+        android:icon="@drawable/ic_settings"
+        android:title="Settings"
+        app:showAsAction="ifRoom" />
     <item android:title="Item" />
 </menu>
