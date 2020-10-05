@@ -6,4 +6,4 @@ Ambloide is an IDE that uses Scratch blocks technology to help users without pro
 
 This app's concept is taken from the existing (dead, closed source) blocks IDE **Sketchware**.
 
-#### THIS PROJECT IS OPEN FOR HELP AND CONTRIBUTIONS. FOR MORE INFO ON HOW TO HELP, CONTACT ME: skaldebane@gmail.com
+#### This project has been abandoned... Thanks for your interest.
